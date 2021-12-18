@@ -15,7 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
     position: relative;
     height: 100vh;
-    min-width: 2000px;
+    max-width: 1500px;
 }
 
 .real {
@@ -133,6 +133,7 @@ footer {
 @media screen and (max-width: 600px) {
     body {
       font-size:25px;
+      max-width: ;
     }
     .icon {
         margin-top: -50px;
@@ -141,7 +142,7 @@ footer {
 
   @media screen and (max-width:550px) {
     body {
-        min-width: 2000px;
+        max-width: 200px;
         font-size: 35x;
         height: 100vh;
     }
