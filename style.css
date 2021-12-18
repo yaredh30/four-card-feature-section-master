@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 100vh;
+    min-width: 2000px;
+}
+
+.real {
+    text-align: center;
+    margin-top: 70px;
+    color: hsl(229, 6%, 66%);
+}
+
+.power {
+    text-align: center;
+    margin-top: 1px;
+    color: hsl(234, 12%, 34%);
+    font-weight: bold;
+}
+
+.our {
+    text-align: center;
+    margin-top: 5px;
+    color: hsl(0, 0%, 88%);
+    font-weight: bold;
+    margin-bottom: 250px;
+}
+
+.container {
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    transform: translate(-50px, -50px);
+    display: flex;
+    gap: 4rem;
+
+}
+
+.team {
+    margin-top: -150px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px hsl(0, 0%, 88%);
+    border-top: 6px solid hsl(0, 78%, 62%);
+    height: 350px;
+    width: 520px;
+}
+
+.karma {
+    margin-top: 250px;
+    margin-left: -580px;
+    box-shadow: 5px 5px 5px 5px hsl(0, 0%, 88%);
+    border-top: 6px solid hsl(34, 97%, 64%);
+    height: 350px;
+    width: 520px;
+}
+
+.calculator {
+    margin-left: 0px;
+    box-shadow: 5px 5px 5px 5px hsl(0, 0%, 88%);
+    border-top: 6px solid hsl(212, 86%, 64%);
+    height: 350px;
+    width: 520px;
+}
+
+.super {
+    box-shadow: 5px 5px 5px 10px hsl(0, 0%, 88%);
+    border-top: 6px solid hsl(180, 62%, 55%);
+    height: 350px;
+    width: 520px;
+}
+.visor {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: hsl(234, 12%, 34%);
+}
+.project {
+    padding-left: 30px;
+    color: hsl(0, 3%, 79%);
+    padding-top: 20px;
+}
+
+.icon {
+    
+    padding-top: 120px;
+    padding-left: 400px;
+}
+
+footer {
+    margin-top: 950px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1496px) {
+
+    body {
+        min-width: 2000px;
+        font-size: 20px;
+    }
+     .karma{
+         max-width: 520px;
+     }
+     .team {
+        max-width: 520px;
+     }
+     .calculator {
+        max-width: 520px;
+     }
+    .super {
+        max-width: 520px;
+    }
+    .container{
+      top: 60%;
+      left: 10%;
+  }
+
+  } 
+    
+@media screen and (max-width: 600px) {
+    body {
+      font-size:25px;
+    }
+    .icon {
+        margin-top: -50px;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    body {
+        min-width: 2000px;
+        font-size: 35x;
+        height: 100vh;
+    }
+    
+    .container {
+          display: block;
+          width: 100%;
+          align-items: center;
+          left: 40%;
+      }
+      .our{
+          font-size: 35px; 
+         
+      }
+      .real {
+          font-size: 35px;
+
+      }
+      .power {
+         font-size: 35px;
+      }
+     .karma{
+         max-width: 100%;
+         margin-left: 100px;
+         min-height: 350px;
+         margin-top: 50px;
+         margin-bottom: 90px;
+         margin-left: -10px;
+         box-shadow: 5px 5px 5px 10px hsl(0, 0%, 88%);
+     }
+     .team {
+        min-width: 350px;
+        margin-top: 100px;
+        min-height: 350px;
+        box-shadow: 5px 5px 5px 10px hsl(0, 0%, 88%);
+     }
+     .calculator {
+        max-width: 520px;
+        min-height: 350px;
+        box-shadow: 5px 5px 5px 10px hsl(0, 0%, 88%);
+     }
+    .super {
+        max-width: 520px;
+        min-height: 350px;
+        box-shadow: 5px 5px 5px 10px hsl(0, 0%, 88%);
+          
+  }
+
+  .icon {
+      margin-top: -90px;
+  }
+  footer {
+      margin-top: 3000px;
+  }
+}
