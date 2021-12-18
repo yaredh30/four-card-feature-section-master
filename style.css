@@ -41,7 +41,7 @@ body {
 
 .container {
     top: 50%;
-    left: 10%;
+    left: 20%;
     position: absolute;
     transform: translate(-50px, -50px);
     display: flex;
@@ -54,8 +54,8 @@ body {
     background-color: #fff;
     box-shadow: 5px 5px 5px 5px hsl(0, 0%, 88%);
     border-top: 6px solid hsl(0, 78%, 62%);
-    height: 350px;
-    width: 520px;
+    max-height: 350px;
+    max-width: 600px;
 }
 
 .karma {
@@ -63,23 +63,23 @@ body {
     margin-left: -580px;
     box-shadow: 5px 5px 5px 5px hsl(0, 0%, 88%);
     border-top: 6px solid hsl(34, 97%, 64%);
-    height: 350px;
-    width: 520px;
+    max-height: 350px;
+    max-width: 600px;
 }
 
 .calculator {
     margin-left: 0px;
     box-shadow: 5px 5px 5px 5px hsl(0, 0%, 88%);
     border-top: 6px solid hsl(212, 86%, 64%);
-    height: 350px;
-    width: 520px;
+    max-height: 350px;
+    max-width: 600px;
 }
 
 .super {
     box-shadow: 5px 5px 5px 10px hsl(0, 0%, 88%);
     border-top: 6px solid hsl(180, 62%, 55%);
-    height: 350px;
-    width: 520px;
+    max-height: 350px;
+    max-width: 600px;
 }
 .visor {
     padding-left: 30px;
